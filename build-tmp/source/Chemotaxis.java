@@ -67,9 +67,10 @@ Bacteria [] colony=new Bacteria[BacNum];
  		}
  	}
  	public void move(){
- 		bX+=(Math.random()*5-2);
- 		bY+=(Math.random()*5-2);
- 		
+ 		bX+=(Math.random()*5);
+ 		bY+=(Math.random()*5);
+ 		bX-=2;
+ 		bY-=2;
  	
  	}
 
